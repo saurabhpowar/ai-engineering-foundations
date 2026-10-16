@@ -25,3 +25,16 @@ def chai_stall():
 stall = chai_stall()
 print(next(stall))
 stall.close() #cleanup
+
+#practise code
+
+def car_tyre_shop():
+    try:
+        while True:
+            order = yield "Waiting for tyre order"
+    except:
+        print("Shop closed, No more tyres")
+
+shop = car_tyre_shop()
+print(next(shop))
+shop.close() #cleanup

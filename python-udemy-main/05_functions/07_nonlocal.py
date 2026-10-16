@@ -9,3 +9,16 @@ def update_order():
     print("After kitchen update", chai_type)
 
 update_order()
+
+#Practise
+
+def vehiceltype():
+    vehicle_type = "Car"
+    def update_vehicle():
+        nonlocal vehicle_type
+        vehicle_type = "Bike"
+    update_vehicle()
+    print("After update", vehicle_type)
+
+
+vehiceltype()

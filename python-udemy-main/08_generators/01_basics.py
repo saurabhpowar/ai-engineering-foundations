@@ -6,16 +6,16 @@ def serve_chai():
 stall = serve_chai()
 
 # for cup in stall:
-#     print(cup)
+#    print(cup)
 
 def get_chai_list():
-    return ["Cup 1", "Cup 2", "Cup 3"]
+     return ["Cup 1", "Cup 2", "Cup 3"]
 
-# generator function
+ # generator function
 def get_chai_gen():
-    yield "Cup 1"
-    yield "Cup 2"
-    yield "Cup 3"
+     yield "Cup 1"
+     yield "Cup 2"
+     yield "Cup 3"
 
 chai = get_chai_gen()
 print(next(chai))

@@ -17,3 +17,24 @@ def generate_report():
 
 
 generate_report()
+
+
+#Practise
+
+def skoda():
+    print("Skoda is a car brand")
+
+def engine_type(a):
+    print(f"Skoda has {a} engine type")
+
+def car_color(color):
+    print(f"Skoda has {color} color")
+
+
+def car_details(engine, color):
+    skoda()
+    engine_type(engine)
+    car_color(color)
+    print("Car details are ready")  
+
+car_details("Petrol", "Silver")
